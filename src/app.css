@@ -1,0 +1,29 @@
+.invite-form {
+  background: #ffffff;
+  padding: 10px; }
+  .invite-form md-card.form-card {
+    padding: 0px 30px 30px 10px;
+    background: #fafafa; }
+    .invite-form md-card.form-card.form-hangout-card {
+      padding: 30px 30px 30px 10px; }
+  .invite-form md-card.reciever-card {
+    padding: 14px 18px 15px 10px;
+    background: #fafafa; }
+  .invite-form h2 {
+    color: royalblue;
+    text-align: center;
+    font-weight: 100; }
+  .invite-form h4 {
+    font-weight: 100; }
+  .invite-form a {
+    text-decoration: none; }
+  .invite-form .aEmail {
+    padding: 5px;
+    color: royalblue;
+    font-style: italic;
+    margin: 2px; }
+
+.appId {
+  width: 250px; }
+
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,14 @@
+{
+  "name": "one-i-one",
+  "version": "1.0.0",
+  "description": "hangout one on one",
+  "main": "index.html",
+  "author": "Sandeep Kumar Patel",
+  "license": "ISC",
+  "dependencies": {
+    "angular-material": "^1.0.8"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

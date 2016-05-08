@@ -1,0 +1,9 @@
+<md-card  class="form-card"  layout-align="center center">
+   <h4>Choose a Chat type ?</h4>
+    <md-radio-group ng-model="formData.roomType" layout="row" layout-align="center center">
+        <md-radio-button ng-repeat="rType in roomTypeList"
+                         ng-value="rType.value" aria-label="{{ rType.label }}">
+            {{ rType.label }}
+        </md-radio-button>
+    </md-radio-group>
+</md-card>

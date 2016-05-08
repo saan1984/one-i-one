@@ -1,0 +1,32 @@
+<md-card class="invite-form">
+    <div id="form-container">
+        <div class="page-header text-center">
+            <h2>Hangout Session Maker</h2>
+            <div id="status-buttons" layout="row" layout-align="center center">
+                <a ui-sref-active="active" ui-sref=".roomType">
+                    <md-button  class="md-fab md-mini">1</md-button>
+                    <span class="md-caption">Room</span>
+                </a>
+                <a ui-sref-active="active" ui-sref=".reciever">
+                    <md-button class="md-fab md-mini">2</md-button>
+                    <span class="md-caption">Recievers</span>
+                </a>
+                <a ui-sref-active="active" ui-sref=".complete">
+                    <md-button class="md-fab md-mini">3</md-button>
+                    <span class="md-caption">Complete</span>
+                </a>
+            </div>
+        </div>
+        <form id="signup-form" ng-submit="processForm()">
+            <div id="form-views" ui-view ></div>
+        </form>
+        <div flex layout="row" layout-align="center center">
+            <md-button class="md-raised md-primary" ng-click="resetApp()">
+            Reset
+        </md-button>
+            <md-button class="md-raised md-primary" ng-click="nextStep()">
+            Next
+        </md-button>
+        </div>
+    </div>
+</md-card>

@@ -1,0 +1,19 @@
+<md-card class="reciever-card"  layout-align="center center">
+        <md-card-content layout="row" layout-align="space-between">
+            <md-input-container layout="row" layout-align="center center">
+                <label>Email</label>
+                <input ng-model="user.email" type="email">
+            </md-input-container>
+            <md-card-actions layout="row" layout-align="end center">
+                <md-button class="md-raised md-primary" ng-click="addInvite(user.email)">
+                    Add
+                </md-button>
+            </md-card-actions>
+        </md-card-content>
+    <md-card-content layout="row" layout-wrap layout-align="center center">
+            <div class="aEmail" ng-repeat="reciever in formData.recieverList"
+                 data-email="reciever.email">
+                {{ reciever.id }}
+            </div>
+    </md-card-content>
+</md-card>
